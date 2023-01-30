@@ -1,10 +1,10 @@
 package pl.sasha.src.hw3;
 
-public class hw3 {
+public class Hw5 {
     public static void main(String[] args) {
-        String number = "12587";
+        String number = "123.6789";
 
-        Short FromString = Short.parseShort(number);
+        float FromString = Float.parseFloat(number);
 
         System.out.println(FromString);
     }

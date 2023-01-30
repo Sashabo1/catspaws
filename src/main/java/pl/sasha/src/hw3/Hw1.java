@@ -1,6 +1,6 @@
 package pl.sasha.src.hw3;
 
-public class hw1 {
+public class Hw1 {
     public static void main(String[] args) {
         System.out.println("Byte" + " " + Byte.MIN_VALUE + " " + Byte.MAX_VALUE);
         System.out.println("Short" + " " + Short.MIN_VALUE + " " + Short.MAX_VALUE);

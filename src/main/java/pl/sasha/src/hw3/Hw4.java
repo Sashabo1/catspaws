@@ -1,10 +1,10 @@
 package pl.sasha.src.hw3;
 
-public class hw2 {
+public class Hw4 {
     public static void main(String[] args) {
-        String number = "77";
+        String number = "-78945627";
 
-        byte FromString = Byte.parseByte(number);
+        int FromString = Integer.parseInt(number);
 
         System.out.println(FromString);
     }
