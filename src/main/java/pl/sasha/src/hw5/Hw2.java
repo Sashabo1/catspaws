@@ -9,18 +9,16 @@ public class Hw2 {
 
         System.out.println("Страховались ли у нас раньше?");
         String y = sc.next();
-        if (y.equals("да") ) {
+        if (y.equals("да")) {
             v = v * 0.8;
-        }
-        else {
+        } else {
             v = v * 1;
         }
         System.out.println("Были ли ДТП за последний год?");
         String dtp = sc.next();
         if (dtp.equals("да")) {
-           v = v * 1.2;
-        }
-        else {
+            v = v * 1.2;
+        } else {
             v = v * 1;
         }
         System.out.println(v * 0.25);
